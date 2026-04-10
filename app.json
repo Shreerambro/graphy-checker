@@ -1,0 +1,29 @@
+{
+  "name": "Graphy Universal Checker",
+  "description": "Telegram Bot - Universal Graphy/Spayee account checker with Playwright-based course extraction.",
+  "repository": "https://github.com/YourUsername/Graphy_Universal_Bot",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
+  "keywords": ["telegram", "bot", "pyrogram", "graphy", "spayee", "checker", "playwright"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Get from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get from @BotFather on Telegram",
+      "required": true
+    }
+  }
+}
