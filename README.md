@@ -15,7 +15,7 @@ A highly optimized Telegram Bot to check Accounts for ANY Graphy or Spayee based
 
 You can host this bot quickly using direct deploy on Heroku! Ensure you have your `API_ID` & `API_HASH` from [my.telegram.org](https://my.telegram.org) and your `BOT_TOKEN` from [@BotFather](https://t.me/BotFather).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Shreerambro/graphy-checker)
 
 ---
 
