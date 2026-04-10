@@ -1,0 +1,21 @@
+{
+  "name": "Graphy/Spayee Universal Checker",
+  "description": "Telegram Bot to check combos against any Graphy SaaS based course platform dynamically.",
+  "repository": "https://github.com/YourUsername/Graphy_Universal_Bot",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png",
+  "keywords": ["telegram", "bot", "pyrogram", "graphy", "spayee", "checker", "aiohttp"],
+  "env": {
+    "API_ID": {
+      "description": "Get this from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Get this from @BotFather on Telegram",
+      "required": true
+    }
+  }
+}
